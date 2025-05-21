@@ -278,6 +278,7 @@ body {
       font-size: 0.75rem;
     }
   }
+
   /* delivering good designs */
 
   .design-section {
@@ -394,19 +395,22 @@ body {
     line-height: 2;
     margin-bottom: 40px;
     color: #2D3436;}
+
+    #width{
+        width: 300px;
+      }
+      
   }
   
+
   .feature p {
     font-family: Inter;
     font-weight: 400;
     font-size: 13.5px;
     line-height: 24px;
     letter-spacing: 0px;
-
-
   }
 
-  
   .feature a {
     font-family: Inter;
     font-weight: 700;
@@ -423,16 +427,14 @@ body {
     margin-bottom: 10px;
     text-align: left;
   }
-  #width{
-    width: 300px;
-  }
+
   
-  
- 
+ /* affordable pricing */
   
   .pricing {
     text-align: center;
     padding: 40px 20px;
+    background-color: white;
   }
   
   .pricing h1 {
@@ -512,35 +514,33 @@ body {
       align-items: center;
     }
   }
-  .footer {
-    background: #f9f9f9;
-    padding: 40px 20px;
-    font-family: 'Inter', sans-serif;
+
+/* footer section */
+  footer {
+    background-color: #fff;
+    padding: 80px 135px;
+    position: relative;
   }
   
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2rem;
   }
+  
+
   #footerflex{
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
-  }
-  
-  .footer-columns {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 2rem;
+    gap: -50px;
   }
   
-  /* .footer-column {
-    flex: 1 1 250px;
-  } */
-  
-  .footer-column h4 {
+  h4 {
     font-family: Inter;
     font-weight: 800;
     font-size: 12px;
@@ -553,86 +553,277 @@ body {
 
   }
   
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
+  .footer-social .social-icons,
+  .bottom-icons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .footer-bottom{
+    display: none;
   }
   
-  .footer-column ul li {
-    margin-bottom: 0.5rem;
-  }
+ .footer-info ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  gap: 0.75rem 3rem;
+}
+
+.footer-info ul li {
+  flex: 0 0 calc(33.33% - 2rem); /* 3 columns */
+  font-size: 0.9rem;
+}
+
   
-  .footer-column ul li a,
-  .footer-column p a {
-    color: #333;
-    text-decoration: none;
+  .footer-info a {
+    font-family: Inter;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #000;
+
+  }
+
+  .footer-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
   }
   
-  .social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 16px;
+  .footer-contact .email {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    vertical-align: bottom;
+    color: #7a5af8;
+    margin: 0;
+    margin-top: -15px;
+
   }
   
   .contact-form {
+    position: relative;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0;
+    padding:  0;
+  }
+  
+  .form-title {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #999;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .top-row,
+  .bottom-row {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 60px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group input {
+    width: 270px;
+    height: 40px;
+    padding: 0 2.5rem 0 1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 0.95rem;
+    outline: none;
+    box-sizing: border-box;
+    
+  }
+  
+  .input-group textarea {
+    width: 370px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 17px;
+    border: 2px solid #cfcaf5;
+    background-color: #f2f2f2;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    
+  }
+  .input-group textarea::placeholder {
+    color: #6C5CE7;
+  }
+
+
+  .input-group .icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  .message-box .icon {
+    top: 1rem;
+    transform: none;
+  }
+  
+  .send-btn {
+    width: 170px;
+    height: 80px;
+    background-color: #7b5dfd;
+    color: white;
+    border: none;
+    border-radius: 17px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 6px 20px rgba(123, 93, 253, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background-color: #6c4ee0;
+  }
+  
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #ffffff;
+    border-radius: 0 0 20px 20px;
+    margin-top: 2rem;
+  }
+  
+ 
+  
+  .footer-bottom .setproduct a {
+    color: #04bfa0;
+    text-decoration: none;
+  }
+  
+  .footer-bottom .mobile-email {
+    color: #7a5af8;
+    font-weight: bold;
+  }
+  
+  .footer-bottom .bottom-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
     margin-top: 1rem;
   }
   
-  .contact-form input,
-  .contact-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 14px;
-    font-family: inherit;
-  }
+  /* Mobile Responsive */
+@media (max-width: 768px) {
+    footer{
+        margin: 0;
+        padding: 0 ;
+    }
+    .footer-top {
+      flex-direction: column;
+      gap: 2rem;
+      padding:0;
+    
+    }
+    #svgfot{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    #fot{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        padding-bottom: 10px;
+    }
   
-  .contact-form textarea {
-    resize: vertical;
-    min-height: 80px;
-  }
+    .footer-info ul {
+      grid-template-columns: 1fr;
+    }
   
-  .contact-form button {
-    background-color: #5a4ff3;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-  }
-  
-  .contact-form button:hover {
-    background-color: #483fd1;
-  }
-  
-  /* Icons placeholders */
-  .icon {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    background-color: #ccc;
-    border-radius: 50%;
-  }
-  
-  .icon.fb { background-color: #3b5998; }
-  .icon.in { background-color: #0077b5; }
-  .icon.dr { background-color: #ea4c89; }
-  .icon.tw { background-color: #1da1f2; }
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .footer-columns {
+    .footer-contact form {
       flex-direction: column;
     }
+    
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #copy {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        margin-block-start: 0;
+        margin-block-end: 0;
+
+    }
+    .setproduct{
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0;
+
+    }
+    .mobile-email{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0;
+
+    }
+    .footer-contact{
+        display: none;
+    }
+    #footerflex{
+        display: none;
+    }
   
-    .contact-form input,
-    .contact-form textarea {
+    .footer-contact input,
+    .footer-contact textarea,
+    .footer-contact button {
       width: 100%;
     }
+  
+    .footer-bottom {
+      border-radius: 0;
+      padding: 1.5rem 1rem;
+    }
   }
-      
+  
