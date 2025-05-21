@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid Landing Page</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo"><svg id="logo" width="70" height="64" viewBox="0 0 70 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M47.25 17.6H22.75C20.817 17.6 19.25 19.0327 19.25 20.8V43.2C19.25 44.9673 20.817 46.4 22.75 46.4H47.25C49.183 46.4 50.75 44.9673 50.75 43.2V20.8C50.75 19.0327 49.183 17.6 47.25 17.6Z" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19.25 27.2H50.75" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M29.75 46.4V27.2" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg id="burger" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 20H29" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11 14H29" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11 26H29" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                Grid</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a id="bolda" href="#">How it works</a></li>
+                    <svg width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.3992 6.59659C4.95247 6.59659 6.2117 5.33736 6.2117 3.78409C6.2117 2.23082 4.95247 0.971591 3.3992 0.971591C1.84593 0.971591 0.586701 2.23082 0.586701 3.78409C0.586701 5.33736 1.84593 6.59659 3.3992 6.59659Z" fill="#FDCB6E"/>
+                    </svg>   
+                    <li><a id="purplea" href="#">Who we are</a></li>
+                    <svg width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.3992 6.59659C4.95247 6.59659 6.2117 5.33736 6.2117 3.78409C6.2117 2.23082 4.95247 0.971591 3.3992 0.971591C1.84593 0.971591 0.586701 2.23082 0.586701 3.78409C0.586701 5.33736 1.84593 6.59659 3.3992 6.59659Z" fill="#FDCB6E"/>
+                    </svg>   
+                    <li><a id="purplea" href="#">What we do</a></li>
+                    <svg width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.3992 6.59659C4.95247 6.59659 6.2117 5.33736 6.2117 3.78409C6.2117 2.23082 4.95247 0.971591 3.3992 0.971591C1.84593 0.971591 0.586701 2.23082 0.586701 3.78409C0.586701 5.33736 1.84593 6.59659 3.3992 6.59659Z" fill="#FDCB6E"/>
+                    </svg>
+                    <li><a id="purplea" href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <button class="sign-in">Sign In</button>
+        </div>
+    </header>
+
+  <!-- Hero Section -->
+   
+    <main class="hero-section">
+        <div class="svgbg">
+            <svg id="bgweb" width="801" height="753" viewBox="0 0 801 753" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="-41" y="251" width="1376.03" height="767.907" rx="99" transform="rotate(-45 -41 251)" fill="#FFEAA7"/>
+            <g clip-path="url(#clip0_164_107372)">
+            <path d="M754.704 149.661C758.397 149.661 761.391 146.668 761.391 142.975C761.391 139.282 758.397 136.288 754.704 136.288C751.011 136.288 748.018 139.282 748.018 142.975C748.018 146.668 751.011 149.661 754.704 149.661Z" fill="#FDCB6E"/>
+            <path d="M776.992 127.373C780.685 127.373 783.679 124.379 783.679 120.686C783.679 116.994 780.685 114 776.992 114C773.3 114 770.306 116.994 770.306 120.686C770.306 124.379 773.3 127.373 776.992 127.373Z" fill="#FDCB6E"/>
+            <path d="M799.281 149.661C802.973 149.661 805.967 146.668 805.967 142.975C805.967 139.282 802.973 136.288 799.281 136.288C795.588 136.288 792.594 139.282 792.594 142.975C792.594 146.668 795.588 149.661 799.281 149.661Z" fill="#FDCB6E"/>
+            <path d="M710.128 194.238C713.82 194.238 716.814 191.244 716.814 187.551C716.814 183.858 713.82 180.865 710.128 180.865C706.435 180.865 703.441 183.858 703.441 187.551C703.441 191.244 706.435 194.238 710.128 194.238Z" fill="#FDCB6E"/>
+            <path d="M732.416 171.949C736.109 171.949 739.102 168.956 739.102 165.263C739.102 161.57 736.109 158.576 732.416 158.576C728.723 158.576 725.729 161.57 725.729 165.263C725.729 168.956 728.723 171.949 732.416 171.949Z" fill="#FDCB6E"/>
+            <path d="M754.704 194.238C758.397 194.238 761.391 191.244 761.391 187.551C761.391 183.858 758.397 180.865 754.704 180.865C751.011 180.865 748.018 183.858 748.018 187.551C748.018 191.244 751.011 194.238 754.704 194.238Z" fill="#FDCB6E"/>
+            <path d="M776.992 171.949C780.685 171.949 783.679 168.956 783.679 165.263C783.679 161.57 780.685 158.576 776.992 158.576C773.3 158.576 770.306 161.57 770.306 165.263C770.306 168.956 773.3 171.949 776.992 171.949Z" fill="#FDCB6E"/>
+            <path d="M799.281 194.238C802.973 194.238 805.967 191.244 805.967 187.551C805.967 183.858 802.973 180.865 799.281 180.865C795.588 180.865 792.594 183.858 792.594 187.551C792.594 191.244 795.588 194.238 799.281 194.238Z" fill="#FDCB6E"/>
+            <path d="M665.551 238.814C669.244 238.814 672.238 235.82 672.238 232.128C672.238 228.435 669.244 225.441 665.551 225.441C661.858 225.441 658.865 228.435 658.865 232.128C658.865 235.82 661.858 238.814 665.551 238.814Z" fill="#FDCB6E"/>
+            <path d="M687.839 216.526C691.532 216.526 694.526 213.532 694.526 209.839C694.526 206.147 691.532 203.153 687.839 203.153C684.147 203.153 681.153 206.147 681.153 209.839C681.153 213.532 684.147 216.526 687.839 216.526Z" fill="#FDCB6E"/>
+            <path d="M710.128 238.814C713.82 238.814 716.814 235.82 716.814 232.128C716.814 228.435 713.82 225.441 710.128 225.441C706.435 225.441 703.441 228.435 703.441 232.128C703.441 235.82 706.435 238.814 710.128 238.814Z" fill="#FDCB6E"/>
+            <path d="M732.416 216.526C736.109 216.526 739.102 213.532 739.102 209.839C739.102 206.147 736.109 203.153 732.416 203.153C728.723 203.153 725.729 206.147 725.729 209.839C725.729 213.532 728.723 216.526 732.416 216.526Z" fill="#FDCB6E"/>
+            <path d="M754.704 238.814C758.397 238.814 761.391 235.82 761.391 232.128C761.391 228.435 758.397 225.441 754.704 225.441C751.011 225.441 748.018 228.435 748.018 232.128C748.018 235.82 751.011 238.814 754.704 238.814Z" fill="#FDCB6E"/>
+            <path d="M776.992 216.526C780.685 216.526 783.679 213.532 783.679 209.839C783.679 206.147 780.685 203.153 776.992 203.153C773.3 203.153 770.306 206.147 770.306 209.839C770.306 213.532 773.3 216.526 776.992 216.526Z" fill="#FDCB6E"/>
+            <path d="M799.281 238.814C802.973 238.814 805.967 235.82 805.967 232.128C805.967 228.435 802.973 225.441 799.281 225.441C795.588 225.441 792.594 228.435 792.594 232.128C792.594 235.82 795.588 238.814 799.281 238.814Z" fill="#FDCB6E"/>
+            <path d="M687.839 261.102C691.532 261.102 694.526 258.109 694.526 254.416C694.526 250.723 691.532 247.729 687.839 247.729C684.147 247.729 681.153 250.723 681.153 254.416C681.153 258.109 684.147 261.102 687.839 261.102Z" fill="#FDCB6E"/>
+            <path d="M710.128 283.391C713.82 283.391 716.814 280.397 716.814 276.704C716.814 273.011 713.82 270.018 710.128 270.018C706.435 270.018 703.441 273.011 703.441 276.704C703.441 280.397 706.435 283.391 710.128 283.391Z" fill="#FDCB6E"/>
+            <path d="M732.416 261.102C736.109 261.102 739.102 258.109 739.102 254.416C739.102 250.723 736.109 247.729 732.416 247.729C728.723 247.729 725.729 250.723 725.729 254.416C725.729 258.109 728.723 261.102 732.416 261.102Z" fill="#FDCB6E"/>
+            <path d="M754.704 283.391C758.397 283.391 761.391 280.397 761.391 276.704C761.391 273.011 758.397 270.018 754.704 270.018C751.011 270.018 748.018 273.011 748.018 276.704C748.018 280.397 751.011 283.391 754.704 283.391Z" fill="#FDCB6E"/>
+            <path d="M776.992 261.102C780.685 261.102 783.679 258.109 783.679 254.416C783.679 250.723 780.685 247.729 776.992 247.729C773.3 247.729 770.306 250.723 770.306 254.416C770.306 258.109 773.3 261.102 776.992 261.102Z" fill="#FDCB6E"/>
+            <path d="M799.281 283.391C802.973 283.391 805.967 280.397 805.967 276.704C805.967 273.011 802.973 270.018 799.281 270.018C795.588 270.018 792.594 273.011 792.594 276.704C792.594 280.397 795.588 283.391 799.281 283.391Z" fill="#FDCB6E"/>
+            <path d="M732.416 305.679C736.109 305.679 739.102 302.685 739.102 298.992C739.102 295.299 736.109 292.306 732.416 292.306C728.723 292.306 725.729 295.299 725.729 298.992C725.729 302.685 728.723 305.679 732.416 305.679Z" fill="#FDCB6E"/>
+            <path d="M754.704 327.967C758.397 327.967 761.391 324.973 761.391 321.281C761.391 317.588 758.397 314.594 754.704 314.594C751.011 314.594 748.018 317.588 748.018 321.281C748.018 324.973 751.011 327.967 754.704 327.967Z" fill="#FDCB6E"/>
+            <path d="M776.992 305.679C780.685 305.679 783.679 302.685 783.679 298.992C783.679 295.299 780.685 292.306 776.992 292.306C773.3 292.306 770.306 295.299 770.306 298.992C770.306 302.685 773.3 305.679 776.992 305.679Z" fill="#FDCB6E"/>
+            <path d="M799.281 327.967C802.973 327.967 805.967 324.973 805.967 321.281C805.967 317.588 802.973 314.594 799.281 314.594C795.588 314.594 792.594 317.588 792.594 321.281C792.594 324.973 795.588 327.967 799.281 327.967Z" fill="#FDCB6E"/>
+            <path d="M776.992 350.255C780.685 350.255 783.679 347.262 783.679 343.569C783.679 339.876 780.685 336.882 776.992 336.882C773.3 336.882 770.306 339.876 770.306 343.569C770.306 347.262 773.3 350.255 776.992 350.255Z" fill="#FDCB6E"/>
+            <path d="M799.281 372.543C802.973 372.543 805.967 369.55 805.967 365.857C805.967 362.164 802.973 359.171 799.281 359.171C795.588 359.171 792.594 362.164 792.594 365.857C792.594 369.55 795.588 372.543 799.281 372.543Z" fill="#FDCB6E"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_164_107372">
+            <rect width="209" height="285" fill="white" transform="translate(592 114)"/>
+            </clipPath>
+            </defs>
+            </svg>
+            <svg id="bgmob" width="360" height="435" viewBox="0 0 360 435" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.4" clip-path="url(#clip0_164_107372)">
+                <path d="M360 4.06824e-05L360 413.35C360 413.35 343.301 405.906 312.815 413.19C282.329 420.473 266.861 416.446 224.388 403.816C181.915 391.186 161.86 415.373 100.98 405.836C40.0993 396.299 48.26 427.451 0.000392641 413C-0.00994414 395.467 0.00835371 13.5625 0.000350901 5.09196e-05C37.1967 0.0107878 360 4.06824e-05 360 4.06824e-05Z" fill="#FFEAA7"/>
+                </g>
+                <g clip-path="url(#clip1_164_107372)">
+                <g opacity="0.4" filter="url(#filter0_d_164_107372)">
+                <rect x="55.7198" y="156.084" width="757.268" height="422.601" rx="54.4825" transform="rotate(-45 55.7198 156.084)" fill="#FDCB6E"/>
+                </g>
+                </g>
+                <g clip-path="url(#clip2_164_107372)">
+                <path d="M344.324 78.3998C346.851 78.3998 348.899 76.3515 348.899 73.8248C348.899 71.2981 346.851 69.2498 344.324 69.2498C341.797 69.2498 339.749 71.2981 339.749 73.8248C339.749 76.3515 341.797 78.3998 344.324 78.3998Z" fill="#FDCB6E"/>
+                <path d="M359.574 63.1499C362.1 63.1499 364.149 61.1016 364.149 58.575C364.149 56.0483 362.1 54 359.574 54C357.047 54 354.999 56.0483 354.999 58.575C354.999 61.1016 357.047 63.1499 359.574 63.1499Z" fill="#FDCB6E"/>
+                <path d="M313.824 108.899C316.351 108.899 318.399 106.851 318.399 104.324C318.399 101.798 316.351 99.7495 313.824 99.7495C311.298 99.7495 309.249 101.798 309.249 104.324C309.249 106.851 311.298 108.899 313.824 108.899Z" fill="#FDCB6E"/>
+                <path d="M329.074 93.6496C331.601 93.6496 333.649 91.6013 333.649 89.0746C333.649 86.548 331.601 84.4997 329.074 84.4997C326.547 84.4997 324.499 86.548 324.499 89.0746C324.499 91.6013 326.547 93.6496 329.074 93.6496Z" fill="#FDCB6E"/>
+                <path d="M344.324 108.899C346.851 108.899 348.899 106.851 348.899 104.324C348.899 101.798 346.851 99.7495 344.324 99.7495C341.797 99.7495 339.749 101.798 339.749 104.324C339.749 106.851 341.797 108.899 344.324 108.899Z" fill="#FDCB6E"/>
+                <path d="M359.574 93.6496C362.1 93.6496 364.149 91.6013 364.149 89.0746C364.149 86.548 362.1 84.4997 359.574 84.4997C357.047 84.4997 354.999 86.548 354.999 89.0746C354.999 91.6013 357.047 93.6496 359.574 93.6496Z" fill="#FDCB6E"/>
+                <path d="M283.324 139.399C285.851 139.399 287.899 137.351 287.899 134.824C287.899 132.297 285.851 130.249 283.324 130.249C280.798 130.249 278.75 132.297 278.75 134.824C278.75 137.351 280.798 139.399 283.324 139.399Z" fill="#FDCB6E"/>
+                <path d="M298.574 124.149C301.101 124.149 303.149 122.101 303.149 119.574C303.149 117.048 301.101 114.999 298.574 114.999C296.048 114.999 293.999 117.048 293.999 119.574C293.999 122.101 296.048 124.149 298.574 124.149Z" fill="#FDCB6E"/>
+                <path d="M313.824 139.399C316.351 139.399 318.399 137.351 318.399 134.824C318.399 132.297 316.351 130.249 313.824 130.249C311.298 130.249 309.249 132.297 309.249 134.824C309.249 137.351 311.298 139.399 313.824 139.399Z" fill="#FDCB6E"/>
+                <path d="M329.074 124.149C331.601 124.149 333.649 122.101 333.649 119.574C333.649 117.048 331.601 114.999 329.074 114.999C326.547 114.999 324.499 117.048 324.499 119.574C324.499 122.101 326.547 124.149 329.074 124.149Z" fill="#FDCB6E"/>
+                <path d="M344.324 139.399C346.851 139.399 348.899 137.351 348.899 134.824C348.899 132.297 346.851 130.249 344.324 130.249C341.797 130.249 339.749 132.297 339.749 134.824C339.749 137.351 341.797 139.399 344.324 139.399Z" fill="#FDCB6E"/>
+                <path d="M359.574 124.149C362.1 124.149 364.149 122.101 364.149 119.574C364.149 117.048 362.1 114.999 359.574 114.999C357.047 114.999 354.999 117.048 354.999 119.574C354.999 122.101 357.047 124.149 359.574 124.149Z" fill="#FDCB6E"/>
+                <path d="M298.574 154.649C301.101 154.649 303.149 152.601 303.149 150.074C303.149 147.547 301.101 145.499 298.574 145.499C296.048 145.499 293.999 147.547 293.999 150.074C293.999 152.601 296.048 154.649 298.574 154.649Z" fill="#FDCB6E"/>
+                <path d="M313.824 169.899C316.351 169.899 318.399 167.851 318.399 165.324C318.399 162.797 316.351 160.749 313.824 160.749C311.298 160.749 309.249 162.797 309.249 165.324C309.249 167.851 311.298 169.899 313.824 169.899Z" fill="#FDCB6E"/>
+                <path d="M329.074 154.649C331.601 154.649 333.649 152.601 333.649 150.074C333.649 147.547 331.601 145.499 329.074 145.499C326.547 145.499 324.499 147.547 324.499 150.074C324.499 152.601 326.547 154.649 329.074 154.649Z" fill="#FDCB6E"/>
+                <path d="M344.324 169.899C346.851 169.899 348.899 167.851 348.899 165.324C348.899 162.797 346.851 160.749 344.324 160.749C341.797 160.749 339.749 162.797 339.749 165.324C339.749 167.851 341.797 169.899 344.324 169.899Z" fill="#FDCB6E"/>
+                <path d="M359.574 154.649C362.1 154.649 364.149 152.601 364.149 150.074C364.149 147.547 362.1 145.499 359.574 145.499C357.047 145.499 354.999 147.547 354.999 150.074C354.999 152.601 357.047 154.649 359.574 154.649Z" fill="#FDCB6E"/>
+                <path d="M329.074 185.149C331.601 185.149 333.649 183.1 333.649 180.574C333.649 178.047 331.601 175.999 329.074 175.999C326.547 175.999 324.499 178.047 324.499 180.574C324.499 183.1 326.547 185.149 329.074 185.149Z" fill="#FDCB6E"/>
+                <path d="M344.324 200.399C346.851 200.399 348.899 198.35 348.899 195.824C348.899 193.297 346.851 191.249 344.324 191.249C341.797 191.249 339.749 193.297 339.749 195.824C339.749 198.35 341.797 200.399 344.324 200.399Z" fill="#FDCB6E"/>
+                <path d="M359.574 185.149C362.1 185.149 364.149 183.1 364.149 180.574C364.149 178.047 362.1 175.999 359.574 175.999C357.047 175.999 354.999 178.047 354.999 180.574C354.999 183.1 357.047 185.149 359.574 185.149Z" fill="#FDCB6E"/>
+                <path d="M359.574 215.648C362.1 215.648 364.149 213.6 364.149 211.073C364.149 208.547 362.1 206.498 359.574 206.498C357.047 206.498 354.999 208.547 354.999 211.073C354.999 213.6 357.047 215.648 359.574 215.648Z" fill="#FDCB6E"/>
+                </g>
+                <defs>
+                <filter id="filter0_d_164_107372" x="-9.95225" y="-407.241" width="890.004" height="890.004" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="-37.8165"/>
+                <feGaussianBlur stdDeviation="25.2115"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_164_107372"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_164_107372" result="shape"/>
+                </filter>
+                <clipPath id="clip0_164_107372">
+                <rect width="360" height="420" fill="white"/>
+                </clipPath>
+                <clipPath id="clip1_164_107372">
+                <rect width="783.667" height="578.247" fill="white" transform="translate(-313 -144)"/>
+                </clipPath>
+                <clipPath id="clip2_164_107372">
+                <rect width="143" height="195" fill="white" transform="translate(233 54)"/>
+                </clipPath>
+                </defs>
+            </svg>
+                
+                
+        </div>
+        <div class="content ">
+            <div class="container hero-content">
+                <div class="svgrec">
+                    <svg width="191" height="51" viewBox="0 0 191 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="191" height="51" rx="25.5" fill="#55EFC4"/>
+                    </svg>
+                </div>
+                <h1>Combine <span><span class="highlight-word">fine</span>images</span></h1>
+                <h2>To represent a product</h2>
+            </div>
+    
+            <div class="container image-grid">
+                <p class="hero-subtext">
+                    Use mixed grid with imagery, replace with your own photos and descriptions
+                </p>
+                <div class="grid-item tall dark">
+                    <p>We aimed to deliver HQ templates for Figma</p>
+                    <small>Used by 123 people</small>
+                </div>
+                <div class="grid-item wide">
+                    <img src="assets/images/man.png" alt="People working" />
+                    <p class="overlay">Consider it done!</p>
+                </div>
+                <div class="grid-item light">
+                    <p>This is multipurpose grid, it fits for portfolio, services or agency web site</p>
+                </div>
+                <div class="grid-item square"><img src="assets/images/letter.png" alt="A block" /></div>
+                <div class="grid-item square"><img src="assets/images/shoe.jpg" alt="Shoe" /></div>
+                <div class="grid-item square"><img src="assets/images/copy.png" alt="Design book" /></div>
+                <div class="grid-item square">
+                    <img src="assets/images/women.png" alt="Girl posing" />
+                    <p class="overlay">See my goal?</p>
+                </div>
+                <div class="grid-item square"><img src="assets/images/window.png" alt="Window" /></div>
+            </div>
+        </div>
+                        
+        
+    </main>
+
+    <!-- delivering good designs section -->
+
+    <section class="design-section">
+        <div class="container">
+          <h2>Delivering good designs since 1954 🚚🧊</h2>
+          <p id="width">We’re the first multi-purpose design kit solutions for businesses. We help you bridge gaps between your layouts, templates and developers to empower all involved.</p>
+      
+          <div class="features-grid">
+            <div class="feature">
+                <svg width="70" height="72" viewBox="0 0 70 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="70" height="70" rx="35" fill="#E84393"/>
+                    <g filter="url(#filter0_dd_164_107372)">
+                    <path d="M39.1134 26.6C40.4808 26.8668 41.7375 27.5356 42.7227 28.5207C43.7078 29.5059 44.3766 30.7626 44.6434 32.13M39.1134 21C41.9543 21.3156 44.6036 22.5878 46.6261 24.6078C48.6486 26.6278 49.9242 29.2754 50.2434 32.116M48.8434 43.288V47.488C48.8449 47.8779 48.7651 48.2638 48.6089 48.6211C48.4527 48.9783 48.2236 49.299 47.9363 49.5626C47.649 49.8262 47.3098 50.0269 46.9404 50.1518C46.5711 50.2767 46.1797 50.3231 45.7914 50.288C41.4833 49.8199 37.3452 48.3478 33.7094 45.99C30.3267 43.8405 27.4588 40.9726 25.3094 37.59C22.9433 33.9377 21.4709 29.7794 21.0114 25.452C20.9764 25.0649 21.0224 24.6747 21.1465 24.3063C21.2705 23.9379 21.47 23.5994 21.732 23.3123C21.9941 23.0252 22.3131 22.7958 22.6687 22.6387C23.0243 22.4817 23.4086 22.4004 23.7974 22.4H27.9974C28.6768 22.3933 29.3355 22.6339 29.8506 23.0769C30.3658 23.52 30.7023 24.1352 30.7974 24.808C30.9746 26.1521 31.3034 27.4718 31.7774 28.742C31.9657 29.2431 32.0065 29.7877 31.8948 30.3112C31.7832 30.8348 31.5238 31.3154 31.1474 31.696L29.3694 33.474C31.3623 36.979 34.2644 39.881 37.7694 41.874L39.5474 40.096C39.928 39.7196 40.4086 39.4602 40.9321 39.3485C41.4557 39.2369 42.0003 39.2776 42.5014 39.466C43.7715 39.94 45.0913 40.2687 46.4354 40.446C47.1154 40.5419 47.7365 40.8845 48.1805 41.4085C48.6245 41.9325 48.8604 42.6014 48.8434 43.288Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_dd_164_107372" x="-9" y="-5" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="8"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                    <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow_164_107372"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                    <feBlend mode="multiply" in2="effect1_dropShadow_164_107372" result="effect2_dropShadow_164_107372"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_164_107372" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>
+                <h3>Support</h3>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <a id="lernmre" href="#">Learn more</a>
+            </div>
+            <div class="feature">
+                <svg width="70" height="71" viewBox="0 0 70 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="70" height="70" rx="35" fill="#0984E3"/>
+                    <g filter="url(#filter0_dd_164_107372)">
+                    <path d="M47.8946 40.446C47.0039 42.5523 45.6109 44.4083 43.8372 45.8518C42.0635 47.2953 39.9632 48.2824 37.72 48.7267C35.4767 49.171 33.1588 49.059 30.9688 48.4005C28.7788 47.742 26.7834 46.5571 25.1572 44.9493C23.5309 43.3415 22.3233 41.3598 21.6399 39.1775C20.9564 36.9952 20.818 34.6787 21.2366 32.4305C21.6553 30.1823 22.6183 28.0709 24.0414 26.2808C25.4646 24.4908 27.3046 23.0766 29.4006 22.162" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M49.0005 35C49.0005 33.1615 48.6384 31.341 47.9349 29.6424C47.2313 27.9439 46.2001 26.4005 44.9 25.1005C43.6 23.8005 42.0567 22.7693 40.3581 22.0657C38.6596 21.3621 36.8391 21 35.0005 21V35H49.0005Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_dd_164_107372" x="-9" y="-5" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="8"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                    <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow_164_107372"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                    <feBlend mode="multiply" in2="effect1_dropShadow_164_107372" result="effect2_dropShadow_164_107372"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_164_107372" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>    
+                <h3>Sales growth</h3>
+                <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+                <a id="lernmre" href="#">Learn more</a>
+            </div>
+            <div class="feature">
+                <svg width="70" height="71" viewBox="0 0 70 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="70" height="70" rx="35" fill="#6C5CE7"/>
+                    <g filter="url(#filter0_dd_164_107372)">
+                    <path d="M36.4 21L22.4 37.8H35L33.6 49L47.6 32.2H35L36.4 21Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_dd_164_107372" x="-9" y="-5" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="8"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                    <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow_164_107372"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                    <feBlend mode="multiply" in2="effect1_dropShadow_164_107372" result="effect2_dropShadow_164_107372"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_164_107372" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>
+                <h3>Coponents-driven</h3>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <a id="lernmre" href="#">Learn more</a>
+            </div>
+            <div class="feature">
+                <svg width="70" height="71" viewBox="0 0 70 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="70" height="70" rx="35" fill="#00B894"/>
+                    <g filter="url(#filter0_dd_164_107372)">
+                    <path d="M28 49H23.8C23.0574 49 22.3452 48.705 21.8201 48.1799C21.295 47.6548 21 46.9426 21 46.2V36.4C21 35.6574 21.295 34.9452 21.8201 34.4201C22.3452 33.895 23.0574 33.6 23.8 33.6H28M37.8 30.8V25.2C37.8 24.0861 37.3575 23.0178 36.5698 22.2302C35.7822 21.4425 34.7139 21 33.6 21L28 33.6V49H43.792C44.4673 49.0076 45.1225 48.771 45.6371 48.3336C46.1516 47.8962 46.4907 47.2877 46.592 46.62L48.524 34.02C48.5849 33.6187 48.5578 33.209 48.4447 32.8192C48.3315 32.4293 48.1349 32.0688 47.8686 31.7625C47.6023 31.4562 47.2725 31.2115 46.9022 31.0453C46.5319 30.8791 46.1299 30.7954 45.724 30.8H37.8Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_dd_164_107372" x="-9" y="-5" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="8"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                    <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow_164_107372"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                    <feBlend mode="multiply" in2="effect1_dropShadow_164_107372" result="effect2_dropShadow_164_107372"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_164_107372" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>
+                <h3>Swap the icon</h3>
+                <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
+                <a id="lernmre" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="pricing">
+        <h1>Affordable pricing</h1>
+        <p class="toggle-billing">Bill me <a href="#">monthly</a> • <a href="#">yearly</a></p>
+        <div class="pricing-cards">
+          <div class="card free">
+            <p class="label">Like a pussy</p>
+            <h2>Free <span>/ forever</span></h2>
+            <ul>
+              <li>✓ Components-driven system</li>
+              <li>✓ Sales-boosting landing pages</li>
+              <li>✓ Awesome Feather icons pack</li>
+            </ul>
+            <button>Try for free</button>
+          </div>
+          <div class="card individual best">
+            <p class="label">👤 Individual <span class="badge">BEST</span></p>
+            <h2>$24 <span>/ month</span></h2>
+            <ul>
+              <li>✓ Components-driven system</li>
+              <li>✓ Sales-boosting landing pages</li>
+              <li>✓ Awesome Feather icons pack</li>
+              <li>✓ Themed into 3 different styles</li>
+              <li>✓ Will help to learn Figma</li>
+            </ul>
+            <button class="primary">Regular license</button>
+          </div>
+          <div class="card corporate">
+            <p class="label">🏢 Corporate</p>
+            <h2>$12 <span>/ editor</span></h2>
+            <ul>
+              <li>✓ Components-driven system</li>
+              <li>✓ Sales-boosting landing pages</li>
+              <li>✓ Awesome Feather icons pack</li>
+              <li>✓ Themed into 3 different styles</li>
+            </ul>
+            <button>Extended license</button>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer & Contact Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div id="footerflex">
+                    <div class="footer-column">
+                        <h4>Follow us</h4>
+                        <div class="social-icons">
+                            <svg width="270" height="40" viewBox="0 0 270 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="40" height="40" rx="20" fill="#FFEAA7"/>
+                                <path d="M25 10H22C20.6739 10 19.4021 10.5268 18.4645 11.4645C17.5268 12.4021 17 13.6739 17 15V18H14V22H17V30H21V22H24L25 18H21V15C21 14.7348 21.1054 14.4804 21.2929 14.2929C21.4804 14.1054 21.7348 14 22 14H25V10Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M101 16C102.591 16 104.117 16.6321 105.243 17.7574C106.368 18.8826 107 20.4087 107 22V29H103V22C103 21.4696 102.789 20.9609 102.414 20.5858C102.039 20.2107 101.53 20 101 20C100.47 20 99.9609 20.2107 99.5858 20.5858C99.2107 20.9609 99 21.4696 99 22V29H95V22C95 20.4087 95.6321 18.8826 96.7574 17.7574C97.8826 16.6321 99.4087 16 101 16V16Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M91 17H87V29H91V17Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M89 14C90.1046 14 91 13.1046 91 12C91 10.8954 90.1046 10 89 10C87.8954 10 87 10.8954 87 12C87 13.1046 87.8954 14 89 14Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M183.074 17.0021C180.804 9.41214 177.534 7.65214 169.994 9.92214C162.454 12.1921 160.644 15.4621 162.914 23.0021C165.184 30.5421 168.454 32.3521 175.994 30.0821C183.534 27.8121 185.344 24.5421 183.074 17.0021Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M173.564 13.9922L177.144 24.3922" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M168.844 15.6121L172.424 26.0121" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M177.384 15.8521L166.984 19.4321" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M179.004 20.572L168.604 24.152" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M261 11.0101C260.042 11.6855 258.982 12.2022 257.86 12.5401C257.258 11.8476 256.457 11.3567 255.567 11.134C254.677 10.9112 253.739 10.9673 252.882 11.2945C252.025 11.6218 251.288 12.2045 250.773 12.9638C250.258 13.7231 249.988 14.6224 250 15.5401V16.5401C248.243 16.5856 246.501 16.1959 244.931 15.4055C243.361 14.6151 242.01 13.4487 241 12.0101C241 12.0101 237 21.0101 246 25.0101C243.941 26.408 241.487 27.109 239 27.0101C248 32.0101 259 27.0101 259 15.5101C258.999 15.2315 258.972 14.9537 258.92 14.6801C259.941 13.6735 260.661 12.4028 261 11.0101V11.0101Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                      
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Information</h4>
+                            <ul>
+                                <li><a href="#">About Fapster app</a></li>
+                                <li><a href="#">Get in Touch</a></li>
+                                <li><a href="#">Things We Like</a></li>
+                                <li><a href="#">Onhovered / Active</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-column contact">
+                    <h4>Follow us</h4>
+                    <p><a href="mailto:hello@fapsterapp.com">hello@fapsterapp.com</a></p>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your name" />
+                        <input type="email" placeholder="E-mail" />
+                        <textarea placeholder="Leave your message!"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+
+    
+      
+      
+
+
+
+</body>
+</html>
