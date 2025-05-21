@@ -290,11 +290,11 @@ body {
   
   .design-section .container {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 60px 130px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
+    justify-content: space-between;
   }
   
   .design-section h2 {
@@ -317,14 +317,13 @@ body {
 
     line-height: 36px;
     letter-spacing: -0.25px;
-    vertical-align: middle;
 
   }
   
   .features-grid {
     display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 240px);
+    gap: 10px 100px;
   }
   
   .feature {
@@ -332,6 +331,12 @@ body {
     border-radius: 12px;
     transition: transform 0.3s ease;
     text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
   }
   
   .feature:hover {
@@ -352,7 +357,7 @@ body {
     line-height: 36px;
     letter-spacing: 0.25px;
     vertical-align: middle;
-
+    margin: 0;
   }
   
   .feature p {
@@ -363,7 +368,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 0px;
-
+    margin: 0;
   }
   
   .feature a {
@@ -429,96 +434,12 @@ body {
   }
 
   
- /* affordable pricing */
-  
-  .pricing {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: white;
-  }
-  
-  .pricing h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  .toggle-billing a {
-    color: #5a4ff3;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .pricing-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 30px;
-  }
-  
-  .card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 20px;
-    max-width: 280px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    text-align: left;
-  }
-  
-  .card .label {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .card h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .card ul {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 10px;
-  }
-  
-  .card ul li {
-    margin: 5px 0;
-  }
-  
-  .card .badge {
-    background: #5a4ff3;
-    color: white;
-    padding: 2px 8px;
-    font-size: 10px;
-    border-radius: 8px;
-    margin-left: 4px;
-  }
-  
-  .card button {
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: none;
-    background: #eee;
-    cursor: pointer;
-  }
-  
-  .card button.primary {
-    background: #5a4ff3;
-    color: white;
-  }
-  
-  @media (max-width: 768px) {
-    .pricing-cards {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
+ 
 /* footer section */
   footer {
     background-color: #fff;
     padding: 80px 135px;
+    padding-top: 0px;
     position: relative;
   }
   
