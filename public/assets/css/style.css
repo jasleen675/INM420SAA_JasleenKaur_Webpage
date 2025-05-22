@@ -447,14 +447,49 @@ body {
         display: block;
         transform: scale(1.1);
     }
-  
-    .image-grid {
-      grid-template-columns: 1fr 1fr;
+    .parent {
+        grid-template-columns: repeat(12, 30px);
+        grid-template-rows: repeat(8, 31px);
+        gap: 8px;
+        margin: 20px 0px 20px -60px;
+        overflow: hidden;
     }
-  
-    .grid-item .overlay {
-      font-size: 0.75rem;
+    .parent div{
+        overflow: visible;
     }
+    .div1, .div3{
+        display: none;
+    }
+    .div2 .overlay {
+        left: 0;
+        
+    }    
+    .div2 .overlay p {
+        font-size: 20px;
+    }
+    .div4 .spoverlay {
+        display: none;
+    }
+    .div6 .womoverlay {
+        bottom: -20px;
+        left: 0;
+    }
+    .div6 .womoverlay p {
+        font-size: 20px;
+    }
+    .learnm{
+        width: 100px;
+        height: 47px;
+        background: #6f4ef2;
+        color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 44px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
   }
 
   /* delivering good designs */
